@@ -1,0 +1,6 @@
+/* components/user-info.wxss */
+.user-info {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}

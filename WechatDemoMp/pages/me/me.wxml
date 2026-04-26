@@ -1,8 +1,6 @@
 <view style="padding:20px;">
   <block wx:if="{{userInfo}}">
-    <text>用户名: {{userInfo.username}}</text>
-    <text>OpenId: {{userInfo.openId}}</text>
-    <text>角色: {{userInfo.role}}</text>
+    <user-info userinfo="{{userInfo}}"></user-info>
     <button bindtap="logout" style="margin-top:20px;">退出登录</button>
   </block>
   <block wx:else>

@@ -1,0 +1,11 @@
+<!--components/user-info.wxml-->
+<view class="user-info">
+  <block wx:if="{{userinfo}}">
+    <text>用户名: {{userinfo.username}}</text>
+    <text>OpenId: {{userinfo.openId}}</text>
+    <text>角色: {{userinfo.role}}</text>
+  </block>
+  <block wx:else>
+    <text>请登录</text>
+  </block>
+</view>
