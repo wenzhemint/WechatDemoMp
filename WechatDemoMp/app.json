@@ -2,11 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "微信 Demo",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "style": "v2",

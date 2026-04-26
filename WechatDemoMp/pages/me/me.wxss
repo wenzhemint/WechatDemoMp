@@ -1,1 +1,17 @@
-/* pages/me.wxss */
+/* pages/me/me.wxss */
+.container {
+  padding: 20px;
+}
+button {
+  background-color: #e64340;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+view {
+  padding: 20px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+}

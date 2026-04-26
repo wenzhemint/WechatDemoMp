@@ -1,4 +1,4 @@
-/**index.wxss**/
+/* pages/login/login.wxss */
 view {
   padding: 20px;
   font-size: 16px;

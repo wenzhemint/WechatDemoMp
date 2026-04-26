@@ -1,0 +1,4 @@
+<!--pages/login/login.wxml-->
+<view style="padding:20px;">
+  <button bindtap="login">微信登录</button>
+</view>

@@ -1,2 +1,11 @@
-<!--pages/me.wxml-->
-<text>pages/me.wxml</text>
+<view style="padding:20px;">
+  <block wx:if="{{userInfo}}">
+    <text>用户名: {{userInfo.username}}</text>
+    <text>OpenId: {{userInfo.openId}}</text>
+    <text>角色: {{userInfo.role}}</text>
+    <button bindtap="logout" style="margin-top:20px;">退出登录</button>
+  </block>
+  <block wx:else>
+    <text>请先登录</text>
+  </block>
+</view>
