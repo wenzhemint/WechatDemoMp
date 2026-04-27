@@ -3,14 +3,53 @@ page {
   display: flex;
   flex-direction: column;
 }
+
 .scrollarea {
   flex: 1;
   overflow-y: hidden;
 }
-.log-item {
-  margin-top: 20rpx;
-  text-align: center;
+
+.list-view {
+  padding: 20rpx;
+  background: #f5f5f5;
 }
-.log-item:last-child {
+.card {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);
+}
+.card:last-child {
   padding-bottom: env(safe-area-inset-bottom);
+}
+.card-header .title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.card-content {
+  margin-top: 20rpx;
+}
+.card-content .desc {
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 12rpx;
+}
+.card-footer {
+  margin-top: 16rpx;
+  text-align: right;
+}
+.card-footer .time {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.tag {
+  display: inline-block;
+  background: #4CAF50;
+  color: #fff;
+  font-size: 20rpx;
+  padding: 4rpx 10rpx;
+  border-radius: 8rpx;
 }

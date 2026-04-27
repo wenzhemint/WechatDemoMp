@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view style="padding:20px;">
-  <text>欢迎使用 WeChat Demo 小程序</text>
-  <text>点击下方“我的”查看用户信息</text>
+<view class="container">
+  <view class="welcome">欢迎使用 WeChat Demo 小程序</view>
+  <view class="info">点击下方“我的”查看用户信息</view>
 </view>

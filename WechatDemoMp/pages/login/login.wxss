@@ -1,8 +1,6 @@
-/* pages/login/login.wxss */
-view {
-  padding: 20px;
-  font-size: 16px;
-}
-button {
+.container .login {
+  background-color: #54b93b;
+  color: white;
+  padding: 10px;
   margin-top: 20px;
 }

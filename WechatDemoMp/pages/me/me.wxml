@@ -1,7 +1,7 @@
-<view style="padding:20px;">
+<view class="container">
   <block wx:if="{{userInfo}}">
     <user-info userinfo="{{userInfo}}"></user-info>
-    <button bindtap="logout" style="margin-top:20px;">退出登录</button>
+    <button bindtap="logout" class="logout">退出登录</button>
   </block>
   <block wx:else>
     <text>请先登录</text>

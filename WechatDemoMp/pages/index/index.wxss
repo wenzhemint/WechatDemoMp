@@ -1,8 +1,4 @@
 /**index.wxss**/
-view {
-  padding: 20px;
-  font-size: 16px;
-}
-button {
-  margin-top: 20px;
+.container .info {
+  margin-top: 10rpx;
 }
